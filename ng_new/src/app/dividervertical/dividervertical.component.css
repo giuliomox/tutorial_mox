@@ -1,0 +1,17 @@
+.flex {
+    display: flex !important;
+    align-items: center; /* Align items vertically at the top */
+}
+
+.side {
+    flex: 1; /* Side columns take up equal but minimal space */
+}
+
+.main {
+    flex: 2; /* Central column takes up more space */
+    align-items: center;
+}
+
+.p-element {
+    align-self: stretch; /* Optional: Make dividers stretch vertically */
+}
